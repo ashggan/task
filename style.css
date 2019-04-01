@@ -31,7 +31,7 @@ body {
   height: 100vh;
   background: #fd0c12;
   width: 100%;
-  background: url("/img/Lana2.png"), #f1f1f3;
+  background: url("img/Lana2.png"), #f1f1f3;
   background-size: 40%;
   background-position: center;
   background-repeat: no-repeat;
