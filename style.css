@@ -78,16 +78,16 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-content: end;
-  justify-content: end; }
+  align-content: flex-end;
+  justify-content: flex-end; }
   .main .box {
     height: 90%;
     margin: 40px;
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-content: end;
+    align-content: flex-end;
+    justify-content: flex-end;
     padding: 10px;
     padding-bottom: 0; }
     .main .box .text {
@@ -141,8 +141,8 @@ body {
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-content: end;
+    justify-content: flex-end;
+    align-content: flex-end;
     padding: 0; }
     #price .box .page-footer {
       background: #f1f1f3; }
@@ -245,7 +245,7 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         text-align: center; }
         #feature .box .inner-box .client h2 {
@@ -270,9 +270,9 @@ body {
           align-items: center;
           margin-top: -40px; }
           #feature .box .inner-box .show .live:nth-child(odd) {
-            justify-content: right; }
+            justify-content: flex-end; }
           #feature .box .inner-box .show .live:nth-child(even) {
-            justify-content: left; }
+            justify-content: flex-start; }
           #feature .box .inner-box .show .live .box {
             width: 40%;
             height: 100%;
